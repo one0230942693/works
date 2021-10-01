@@ -1,0 +1,143 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Sweet</title>
+    </head>
+    <body onresize="windowload()">
+        <!-- ========== header 及 跑馬燈 ============ -->
+        <header>
+            <div class="component_header">
+                <i class="fas fa-bars" onclick="component_header_text_Open()"></i>
+                <div class="component_header_logo">
+                    <img class="logo" src="./img/未命名-1.png" onclick="logoClick()">
+                    <div class="component_header_text">
+                        <i class="component_header_i fas fa-times" onclick="component_header_text_Close()"></i>
+                        <ul class="component_header_ul">
+                            <li class="component_header_li" ><a href="./about.html">關於我們</a></li>
+                            <li class="component_header_li" ><a href="./new.html">最新消息</a></li>
+                            <li class="component_header_li" ><a href="./drinks.html">飲料種類</a></li>
+                            <li class="component_header_li" ><a href="./store.html">門市據點</a></li>
+                            <li class="component_header_li" ><a href="./add.html">加盟資訊</a></li>
+                            <li class="component_header_li" ><a href="./contact.html">聯絡我們</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <marquee direction="left"> <i class="fas fa-bullhorn"></i> 此網頁僅供作品呈現,非商業用途。 此所有網頁圖片版權皆為沐沐茶旅所有。 來源為: https://www.mumuteatrip.com.tw/ 。 此網頁僅供作品呈現,非商業用途。 </marquee>
+        </header>
+
+        <!-- ========== 元件一 ============ -->
+        <div class="about_component_01">
+            <img src="./img/69153039_691062821375155_6904040292005969920_n.jpg">
+        </div>
+
+
+        <!-- ========== 元件二 ============ -->
+        <div class="about_component_02">
+            <div class="component_title">
+                <h1>關於我們</h1>
+                <ul class="bread">
+                    <li><a href="./main.html">首頁</a> / <a style="cursor: inherit;">關於我們</a></li>
+                </ul>
+            </div>
+            <div class="about_component_02_text">
+                <strong>ABOUT</strong>
+                <div class="about_component_02_text_p">
+                    <h1>往往越簡單的事，越難堅持；</h1>
+                    <h4>每一杯都是最真。</h4>
+                    <p> 使生活回歸真實的面貌，<br>
+                        選擇不將就的層次味蕾。<br>
+                        在旅程中相信單純的美好，<br>
+                        在生活裡回饋最真的感受。
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- ========== 元件三 ============ -->
+        <div class="about_component_03">
+            <div class="about_component_03_img">
+                <img src="./img/100947246_899964847151617_1487842448758538240_n.jpg">
+                <div class="about_component_03_text">
+                    <h1>網站理念</h1>
+                    <h4>-優質茶品-</h4>
+                    <p>
+                        友善環境，<br>
+                        尋訪台灣茶園用心焙製一杯金黃茶湯
+                    </p>
+                    <h4>-新鮮蔬果-</h4>
+                    <p>
+                        不時不食，<br>
+                        取材新鮮蔬果融入當令季節美好鮮甜
+                    </p>
+                    <h4>-嚴選配料-</h4>
+                    <p>
+                        質作精選，<br>
+                        奶蓋系列商品選用法國Guerande鹽之花
+                    </p>
+                    <h4>-小農食作-</h4>
+                    <p>
+                        蒸材實料，<br>
+                        芋頭、紫薯、地瓜每日現蒸享受質樸濃醇
+                    </p>
+                </div>
+            </div>
+            <div class="about_component_03_video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5Z5bbUdYa34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span>SWEET</span>
+            </div>
+        </div>
+
+        <!-- ========== 元件四 ============ -->
+        <div class="about_component_04">
+            <div class="about_component_04_p">
+                <p>
+                    如想創業的您認同這樣的理念，歡迎加入飲料店加盟的行列!
+                </p>
+            </div>
+        </div>
+
+        
+         <!-- ========== 背景圖文和置頂 ============ -->
+         <span class="main_component_up" style="display: none;" onclick="FourLeafCloverZCTopFunc()"><i class="fas fa-angle-double-up"></i></span>
+         <i class="fas fa-chevron-down"></i>
+
+
+
+
+        <!-- ========== footer ============ -->
+        <footer>
+            <div class="footer_component">
+                <img class="logo" src="./img/未命名-2.png" onclick="logoClick()">
+                <div class="footer_component_text">
+                    <div class="footer_component_a">
+                        <a href="./about.html">關於我們</a>
+                        <a href="./new.html">最新消息</a>
+                        <a href="./drinks.html">飲料種類</a>
+                        <a href="./store.html">門市據點</a>
+                        <a href="./add.html">加盟資訊</a>
+                        <a href="./contact.html">聯絡我們</a>
+                    </div>
+                    <small>Copyright © 2020 Sweet All Rights Reserves.</small>
+                    <hr>
+                    <div class="footer_component_i">
+                        <i onclick="fbClick()" class="fab fa-facebook"></i>
+                    </div>
+                </div>
+            </div>
+            <p>此網頁僅供作品呈現,非商業用途</p>
+        </footer>
+
+        <script src="./js/jquery.js"></script>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Sweet</title>
+    </head>
+    <body onresize="windowload()">
+        <!-- ========== header 及 跑馬燈 ============ -->
+        <header>
+            <div class="component_header">
+                <i class="fas fa-bars" onclick="component_header_text_Open()"></i>
+                <div class="component_header_logo">
+                    <img class="logo" src="./img/未命名-1.png" onclick="logoClick()">
+                    <div class="component_header_text">
+                        <i class="component_header_i fas fa-times" onclick="component_header_text_Close()"></i>
+                        <ul class="component_header_ul">
+                            <li class="component_header_li" ><a href="./about.html">關於我們</a></li>
+                            <li class="component_header_li" ><a href="./new.html">最新消息</a></li>
+                            <li class="component_header_li" ><a href="./drinks.html">飲料種類</a></li>
+                            <li class="component_header_li" ><a href="./store.html">門市據點</a></li>
+                            <li class="component_header_li" ><a href="./add.html">加盟資訊</a></li>
+                            <li class="component_header_li" ><a href="./contact.html">聯絡我們</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <marquee direction="left"> <i class="fas fa-bullhorn"></i> 此網頁僅供作品呈現,非商業用途。 此所有網頁圖片版權皆為沐沐茶旅所有。 來源為: https://www.mumuteatrip.com.tw/ 。 此網頁僅供作品呈現,非商業用途。 </marquee>
+        </header>
+
+        <!-- ========== 元件一 ============ -->
+        <div class="about_component_01">
+            <img src="./img/48381407_553582531789852_1203006879182094336_n.jpg">
+        </div>
+
+
+        <!-- ========== 元件二 ============ -->
+        <div class="component_02">
+            <div class="component_title">
+                <h1>聯絡我們</h1>
+                <ul class="bread">
+                    <li><a href="./main.html">首頁</a> / <a style="cursor: inherit;">聯絡我們</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- ========== 元件三 ============ -->
+        <div class="contact_component_03">
+            <h1>一、個人基本資訊</h1>
+            <font for="">真實姓名<b>*</b></font>
+            <input type="name">
+            <font for="">性別<b>*</b></font>
+            <select name="" id="">
+                <option value="">請選擇性別</option>
+                <option value="">先生</option>
+                <option value="">小姐</option>
+            </select>
+            <font for="">年齡層<b>*</b></font>
+            <select name="" id="">
+                <option value="">請選擇年齡</option>
+                <option value="">25歲-35歲</option>
+                <option value="">35歲-45歲</option>
+                <option value="">45歲以上</option>
+            </select>
+            <font for="">行動電話<b>*</b></font>
+            <input type="tel">
+            <font for="">電子信箱<b>*</b></font>
+            <input type="email">
+            <h1>二、加盟洽詢</h1>
+            <font for="">欲加盟區域<b>*</b></font>
+            <input type="text">
+            <font for="">欲加盟時間<b>*</b></font>
+            <select name="" id="">
+                <option value="">請選擇加盟時間</option>
+                <option value="">3個月內</option>
+                <option value="">3個月內-6個月內</option>
+                <option value="">一年內</option>
+                <option value="">一年後</option>
+            </select>
+            <font for="">預計開業資本額<b>*</b></font>
+            <select name="" id="">
+                <option value="">請選擇開業資本額</option>
+                <option value="">100萬</option>
+                <option value="">100萬-200萬</option>
+                <option value="">200萬-300萬</option>
+                <option value="">其他</option>
+            </select>
+            <!-- <label for="">驗證碼<b>*</b></label>
+            <input type="text" class="check_password"> -->
+            <a href="" class="contact_component_03_a">送出</a>
+        </div>
+
+
+
+
+
+
+        
+        
+        <!-- ========== 元件四 ============ -->
+   
+
+         <!-- ========== 背景圖文和置頂 ============ -->
+         <span class="main_component_up" style="display: none;" onclick="FourLeafCloverZCTopFunc()"><i class="fas fa-angle-double-up"></i></span>
+         <i class="fas fa-chevron-down"></i>
+
+
+       
+
+
+
+        <!-- ========== footer ============ -->
+        <footer>
+            <div class="footer_component">
+                <img class="logo" src="./img/未命名-2.png" onclick="logoClick()">
+                <div class="footer_component_text">
+                    <div class="footer_component_a">
+                        <a href="./about.html">關於我們</a>
+                        <a href="./new.html">最新消息</a>
+                        <a href="./drinks.html">飲料種類</a>
+                        <a href="./store.html">門市據點</a>
+                        <a href="./add.html">加盟資訊</a>
+                        <a href="./contact.html">聯絡我們</a>
+                    </div>
+                    <small>Copyright © 2020 Sweet All Rights Reserves.</small>
+                    <hr>
+                    <div class="footer_component_i">
+                        <i onclick="fbClick()" class="fab fa-facebook"></i>
+                    </div>
+                </div>
+            </div>
+            <p>此網頁僅供作品呈現,非商業用途</p>
+        </footer>
+
+        <script src="./js/jquery.js"></script>
+    </body>
+</html>

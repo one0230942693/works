@@ -1,0 +1,288 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">  
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">    
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"> </script>  
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Sweet</title>
+    </head>
+    <body onresize="windowload()">
+        <!-- ========== header 及 跑馬燈 ============ -->
+        <header>
+            <div class="component_header">
+                <i class="fas fa-bars" onclick="component_header_text_Open()"></i>
+                <div class="component_header_logo">
+                    <img class="logo" src="./img/未命名-1.png" onclick="logoClick()">
+                    <div class="component_header_text">
+                        <i class="component_header_i fas fa-times" onclick="component_header_text_Close()"></i>
+                        <ul class="component_header_ul">
+                            <li class="component_header_li" ><a href="./about.html">關於我們</a></li>
+                            <li class="component_header_li" ><a href="./new.html">最新消息</a></li>
+                            <li class="component_header_li" ><a href="./drinks.html">飲料種類</a></li>
+                            <li class="component_header_li" ><a href="./store.html">門市據點</a></li>
+                            <li class="component_header_li" ><a href="./add.html">加盟資訊</a></li>
+                            <li class="component_header_li" ><a href="./contact.html">聯絡我們</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <marquee direction="left"> <i class="fas fa-bullhorn"></i> 此網頁僅供作品呈現,非商業用途。 此所有網頁圖片版權皆為沐沐茶旅所有。 來源為: https://www.mumuteatrip.com.tw/ 。 此網頁僅供作品呈現,非商業用途。 </marquee>
+        </header>
+        
+        
+        
+        
+        
+        <!-- ========== 輪播 ============ -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper" onclick="drinksClick()">
+                <img class="swiper-slide" src="./img/94711566_875564019591700_3462066609231757312_n.jpg">
+                <img class="swiper-slide" src="./img/90333955_853490615132374_6989190273507000320_n.jpg">
+                <img class="swiper-slide" src="./img/131971154_1056066321541468_4933634744011256403_n.jpg">
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+        <!-- ========== 關於我們 ============ -->
+        <div class="main_component_03">
+            <span class="main_component_03_S">S</span>
+            <span class="main_component_03_W">W</span>
+            <span class="main_component_03_E">E</span>
+            <span class="main_component_03_E_2">E</span>
+            <span class="main_component_03_T">T</span>
+            <!-- <div class="main_component_03_span_img">
+                <img src="./img/53274687_593085921172846_355769016054185984_n.jpg">
+                <img src="./img/67059613_674463706368400_4198906925041057792_n.jpg">
+                <img src="./img/67162412_674463696368401_2954854507994939392_n.jpg">
+                <img src="./img/67503588_674465643034873_6624700657070768128_n.jpg">
+            </div> -->
+            <div class="main_component_03_img">
+                <div class="main_component_03_text">
+                    <h1>往往越簡單的事 越難堅持</h1>
+                    <h4>每一杯都是最真</h4>
+                    <p>使生活回歸真實的面貌 ，<br>
+                    選擇不將就的層次味蕾 。<br>
+                    在旅程中相信單純的美好 ，<br>
+                    在生活裡回饋最真的感受 。
+                </p>
+                <a href="./about.html">關於我們 <i class="fas fa-long-arrow-alt-right"></i> </a>
+            </div>
+            <img src="./img/53248458_593085944506177_2284395097883672576_n.jpg" onclick="aboutClick()">
+        </div>
+    </div>
+    
+    <!-- ========== 飲品介紹 ============ -->
+    
+    <div class="main_component_04">
+        <a href="./drinks.html">MORE <span> <i class="fas fa-arrow-right"></i> </span> </a>
+        <h1>熱銷產品</h1>
+        <div class="main_component_04_img swiper-container3">
+            <div class="swiper-wrapper" onclick="drinksClick()">
+                <div class="swiper-slide">
+                    <img src="./img/commodity_01.png">
+                    <p>奇異果汁</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/commodity_02.png">
+                    <p>紅茶</p>
+                </div>
+                <div class="swiper-slide" >
+                    <img src="./img/commodity_03.png">
+                    <p>珍奶</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/commodity_04.png">
+                    <p>綠茶</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/commodity_05.png">
+                    <p>鮮柚汁</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ========== 最新消息 ============ -->
+    <div class="main_component_05">
+        <div class="main_component_05_text">
+            <h1>最新消息</h1>
+            <a href="./new.html">MORE <i class="fas fa-long-arrow-alt-right"></i> </a>
+            <div class="main_component_05_img swiper-container4">
+                <div class="swiper-wrapper" onclick="newClick()">
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="./img/new02.jpg">
+                            <p>買鳳梨飲料就送鳳梨！夢幻飲品「鳳梨冰茶」新鮮鳳梨搭奶蓋太欠喝</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <p>懶人包／情人節快閃　連續22天手搖飲「買一送一」</p>
+                            <img src="./img/183803411_1140694123078687_8137805656828056311_n.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="./img/new01.jpg">
+                            <p>屬於春浪漫的滋味！奇異果　手搖飲新口味報到</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ========== 門市據點 ============ -->
+    <div class="main_component_06">
+        <div class="main_component_06_bg">
+            <h1>門市據點</h1>
+            <div>
+                <ul>
+                    <li onclick="storeClick()">台北門市<i class="fas fa-map-marker-alt"></i></li>
+                    <p onclick="storeClick()">台北市中正區北平西路3號</p>
+                    <li onclick="storeClick()">新北門市<i class="fas fa-map-marker-alt"></i></li>
+                    <p onclick="storeClick()">新北市板橋區中山路一段161號</p>
+                    <li onclick="storeClick()">台中門市<i class="fas fa-map-marker-alt"></i></li>
+                    <p onclick="storeClick()">台中市西屯區台灣大道三段99號</p>
+                </ul>
+                <ul>
+                    <li onclick="storeClick()">台南門市<i class="fas fa-map-marker-alt"></i></li>
+                    <p onclick="storeClick()">台南市新營區民治路36號3樓</p>
+                    <li onclick="storeClick()">台東門市<i class="fas fa-map-marker-alt"></i></li>
+                    <p onclick="storeClick()">台東縣台東市中山路276號</p>
+                    <li onclick="storeClick()">桃園門市<i class="fas fa-map-marker-alt"></i></li>
+                    <p onclick="storeClick()">桃園市桃園區縣府路1號</p>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- ========== 背景圖文和置頂或下滑提示 ============ -->
+    <span class="main_component_span">SWEET</span>
+    <span class="main_component_up" style="display: none;" onclick="FourLeafCloverZCTopFunc()"><i class="fas fa-angle-double-up"></i></span>
+    <i class="fas fa-chevron-down"></i>
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    <!-- ========== footer ============ -->
+    <footer>
+        <div class="footer_component">
+            <img class="logo" src="./img/未命名-2.png" onclick="logoClick()">
+            <div class="footer_component_text">
+                <div class="footer_component_a">
+                    <a href="./about.html">關於我們</a>
+                    <a href="./new.html">最新消息</a>
+                    <a href="./drinks.html">飲料種類</a>
+                    <a href="./store.html">門市據點</a>
+                    <a href="./add.html">加盟資訊</a>
+                    <a href="./contact.html">聯絡我們</a>
+                </div>
+                <small>Copyright © 2020 Sweet All Rights Reserves.</small>
+                <hr>
+                <div class="footer_component_i">
+                    <i onclick="fbClick()" class="fab fa-facebook"></i>
+                </div>
+            </div>
+        </div>
+        <p>此網頁僅供作品呈現,非商業用途</p>
+    </footer>
+    
+    
+    
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+        const swiper = new Swiper('.swiper-container', {
+            // direction: 'vertical', // 垂直切换选项
+            loop: true, // 循环模式选项
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            speed: 1000,
+            
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + (index + 1) + '</span>';
+                },
+            },
+        });
+        
+        var swiper3 = new Swiper('.swiper-container3', {
+            spaceBetween: 15,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                
+                1000: {
+                    slidesPerView: 1,
+                },
+                1200: {
+                    slidesPerView: 3,
+                },
+                1300: {
+                    slidesPerView: 5,
+                },
+            },
+            speed: 1000,
+        });
+        
+        
+        var swiper4 = new Swiper('.swiper-container4', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            autoplay: {
+                delay: 7000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                1: {
+                    slidesPerView: 1,
+                },
+                800:{
+                    slidesPerView: 2,
+                },
+                900: {
+                    slidesPerView: 3,
+                },
+            },
+            speed: 1000,
+            loopFillGroupWithBlank: true,
+        });
+        
+        </script>
+        <script src="./js/jquery.js"></script>
+    </body>
+    </html>
